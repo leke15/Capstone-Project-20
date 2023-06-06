@@ -1,0 +1,47 @@
+@font-face {
+    font-family: montserat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+  }
+  @font-face {
+    font-family: cataran;
+    src: url(fonts/Catamaran/Catamaran-VariableFont_wght.ttf);
+  }
+  $primary: #ff914d;
+  $secondary: #361f11;
+  $accent1: black;
+  $accent2: #bb6a38;
+
+#navLinks {
+    #logo {
+      height: 50px;
+      width: 80;
+      margin-left: 750px;
+    }
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: $accent1;
+    height: 100px;
+    width: 1590px;
+    .indent {
+      margin-left: 500px;
+      width: 1000px;
+    }
+    a {
+      text-decoration: none;
+      font-family: montserat;
+      font-weight: bold;
+      color: $accent2;
+    }
+    a:hover {
+      color: $secondary;
+    }
+}
+
+.space {
+    margin-left: 40px;
+  }
+
+img{
+    width: 150px;
+    height: 100px;
+  }

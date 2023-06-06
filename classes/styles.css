@@ -1,0 +1,113 @@
+@font-face {
+  font-family: cataran;
+  src: url(fonts/Catamaran/Catamaran-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: montserat;
+  src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+body {
+  background-color: #ff914d;
+}
+
+#navLinks {
+  margin-top: -8px;
+  margin-left: -8px;
+  background-color: black;
+  height: 100px;
+  width: 1590px;
+}
+#navLinks #logo {
+  height: 50px;
+  margin-left: 750px;
+}
+#navLinks .indent {
+  padding-top: 15px;
+  margin-left: 500px;
+}
+#navLinks a {
+  text-decoration: none;
+  font-family: montserat;
+  font-weight: bold;
+  color: #bb6a38;
+}
+#navLinks a:hover {
+  color: #361f11;
+}
+#navLinks button {
+  margin-left: 200px;
+  text-align: left;
+  font-family: montserat;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #ff914d;
+  opacity: 0.5;
+}
+
+#services {
+  cursor: pointer;
+}
+
+.cardTitle {
+  display: none;
+  width: 150px;
+  height: 100px;
+  background-color: #ff914d;
+  margin-left: 700px;
+  font-family: montserat;
+  padding: auto;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+
+.space {
+  margin-left: 40px;
+}
+
+#brand {
+  font-family: cataran;
+  font-weight: bold;
+  text-align: center;
+}
+
+#about {
+  font-family: montserat;
+  text-align: center;
+}
+
+#port {
+  height: 600px;
+  background-image: url(back.jpg);
+  background-size: cover;
+}
+
+.first {
+  z-index: 1;
+  position: absolute;
+  margin-left: 450px;
+}
+
+.second {
+  z-index: 2;
+  position: absolute;
+  bottom: 0px;
+  margin-left: 690px;
+}
+
+.wide {
+  font-family: montserat;
+  background-color: transparent;
+  width: 150px;
+  height: 50px;
+}
+.wide a {
+  text-decoration: none;
+  color: #361f11;
+}
+
+.wide:hover {
+  background-color: #ff914d;
+  color: #361f11;
+  transition: 0.5s;
+}/*# sourceMappingURL=styles.css.map */

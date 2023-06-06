@@ -1,0 +1,117 @@
+@font-face {
+  font-family: montserat;
+  src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: cataran;
+  src: url(fonts/Catamaran/Catamaran-VariableFont_wght.ttf);
+}
+body {
+  background-color: #ff914d;
+}
+
+#navLinks {
+  margin-top: -8px;
+  margin-left: -8px;
+  background-color: black;
+  height: 100px;
+  width: 1600px;
+}
+#navLinks #logo {
+  height: 50px;
+  margin-left: 750px;
+}
+#navLinks .indent {
+  padding-top: 15px;
+  margin-left: 500px;
+}
+#navLinks a {
+  text-decoration: none;
+  font-family: montserat;
+  font-weight: bold;
+  color: #bb6a38;
+}
+#navLinks a:hover {
+  color: #361f11;
+}
+
+.cardTitle {
+  display: none;
+  width: 150px;
+  height: 100px;
+  background-color: #ff914d;
+  margin-left: 700px;
+  font-family: montserat;
+  padding: auto;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+
+#display {
+  display: none;
+  background-color: white;
+  width: 550px;
+  border: 1px solid black;
+}
+
+.space {
+  margin-left: 40px;
+}
+
+#contactInfo {
+  background-color: black;
+  width: 1500px;
+  height: 680px;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+#contactInfo .left {
+  float: left;
+  width: 40%;
+  height: 100px;
+}
+#contactInfo .left p {
+  font-family: montserat;
+  color: #ff914d;
+  text-align: center;
+  padding-top: 50px;
+}
+#contactInfo .right {
+  float: right;
+  width: 60%;
+  height: 100px;
+  padding-top: 15px;
+}
+
+.wide {
+  font-family: montserat;
+  background-color: transparent;
+  width: 150px;
+  height: 50px;
+}
+.wide a {
+  text-decoration: none;
+  color: #361f11;
+}
+
+.wide:hover {
+  background-color: #ff914d;
+  color: #361f11;
+  transition: 0.5s;
+}
+
+#info {
+  background-color: white;
+  margin-left: 5px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#info button {
+  margin-left: 145px;
+  margin-top: 10px;
+}
+#info #extra {
+  width: 250px;
+  height: 50px;
+}/*# sourceMappingURL=cont.css.map */

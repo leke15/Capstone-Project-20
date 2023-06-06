@@ -1,0 +1,124 @@
+@font-face {
+    font-family: montserat;
+    src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: cataran;
+    src: url(fonts/Catamaran/Catamaran-VariableFont_wght.ttf);
+}
+$primary: #ff914d;
+$secondary: #361f11;
+$accent1: black;
+$accent2:#bb6a38;
+
+body{
+    background-color: $primary;
+}
+
+#navLinks{
+    #logo{
+        height: 50px;
+        margin-left: 750px;
+    }
+    margin-top: -8px;
+    margin-left: -8px;
+    background-color: $accent1;
+    height: 100px;
+    width: 1600px;
+    .indent{
+        padding-top: 15px;
+        margin-left: 500px;
+    }
+    a{
+        text-decoration: none;
+        font-family: montserat;
+        font-weight: bold;
+        color: $accent2;
+    }
+    a:hover{
+        color: $secondary;
+    }
+}
+.cardTitle {
+    display: none;
+    width: 150px;
+    height: 100px;
+    background-color:$primary;
+    margin-left: 700px;
+    font-family: montserat;
+    padding: auto;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+
+#display{
+    display: none;
+    background-color: white;
+    width: 550px;
+    border: 1px solid black;
+}
+
+.space{
+    margin-left: 40px;
+}
+
+#contactInfo{
+    background-color: black;
+    width: 1500px;
+    height: 680px;
+    margin-left: 10px;
+    margin-top: 40px;
+    .left{
+        float:left;
+        width: 40%;
+        height: 100px;
+
+        p{
+            font-family: montserat;
+            color: $primary;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+    }
+    .right{ 
+        float: right;
+        width: 60%;
+        height: 100px;
+        padding-top: 15px;
+    }
+}
+
+.wide{
+    a{
+        text-decoration: none; 
+        color: $secondary;   
+    }
+    font-family: montserat;
+    background-color: transparent;
+    width: 150px;
+    height: 50px;
+}
+.wide:hover{
+    background-color: $primary;
+    color: $secondary;
+    transition: 0.5s;
+}
+
+#info{
+    background-color: white;
+    margin-left: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+    button{
+        margin-left: 145px;
+        margin-top: 10px;
+    }
+
+    #extra{
+        width: 250px;
+        height: 50px;
+    }
+}

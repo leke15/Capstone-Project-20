@@ -1,0 +1,87 @@
+@font-face {
+  font-family: montserat;
+  src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: cataran;
+  src: url(fonts/Catamaran/Catamaran-VariableFont_wght.ttf);
+}
+body {
+  background-color: #ff914d;
+}
+
+#navLinks {
+  margin-top: -8px;
+  margin-left: -8px;
+  background-color: black;
+  height: 100px;
+  width: 1600px;
+}
+#navLinks #logo {
+  height: 50px;
+  margin-left: 750px;
+}
+#navLinks .indent {
+  padding-top: 15px;
+  margin-left: 500px;
+}
+#navLinks a {
+  text-decoration: none;
+  font-family: montserat;
+  font-weight: bold;
+  color: #bb6a38;
+}
+#navLinks a:hover {
+  color: #361f11;
+}
+
+.space {
+  margin-left: 40px;
+}
+
+h1 {
+  font-family: cataran;
+  font-weight: bold;
+}
+
+#picBox1 {
+  width: 900px;
+  height: 350px;
+  margin-left: 350px;
+}
+#picBox1 img {
+  width: 100%;
+  height: 100%;
+}
+
+#subject {
+  font-family: montserat;
+  font-weight: bold;
+  text-align: center;
+}
+
+.desc {
+  font-family: montserat;
+  text-align: center;
+  padding: 45px;
+}
+
+#picBox2 {
+  width: 900px;
+  height: 350px;
+  margin-left: 350px;
+}
+#picBox2 img {
+  width: 100%;
+  height: 100%;
+}
+
+#picBox3 {
+  width: 900px;
+  height: 350px;
+  margin-left: 350px;
+}
+#picBox3 img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=serv.css.map */

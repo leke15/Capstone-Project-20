@@ -1,0 +1,100 @@
+@font-face {
+  font-family: montserat;
+  src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: cataran;
+  src: url(fonts/Catamaran/Catamaran-VariableFont_wght.ttf);
+}
+$primary: #ff914d;
+$secondary: #361f11;
+$accent1: black;
+$accent2: #bb6a38;
+#navLinks {
+  #logo {
+    height: 50px;
+    width: 80;
+    margin-left: 750px;
+  }
+  margin-top: -8px;
+  margin-left: -8px;
+  background-color: $accent1;
+  height: 100px;
+  width: 1590px;
+  .indent {
+    margin-left: 500px;
+    width: 1000px;
+  }
+  a {
+    text-decoration: none;
+    font-family: montserat;
+    font-weight: bold;
+    color: $accent2;
+  }
+  a:hover {
+    color: $secondary;
+  }
+  button {
+    margin-left: 300px;
+    text-align: left;
+    font-family: montserat;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: $primary;
+    opacity: 0.5;
+  }
+}
+.cardTitle {
+  display: none;
+  width: 150px;
+  height: 100px;
+  background-color:$primary;
+  margin-left: 700px;
+  font-family: montserat;
+  padding: auto;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+.space {
+  margin-left: 40px;
+}
+
+//This css has a column count and coulum count for each picture i added the count to be 4 so it's nice and neat I read the moz is for older version of web browsers
+#gallery {
+  margin-top: 10px;
+  line-height: 0;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 5px;
+  -moz-column-count: 4;
+  -moz-column-gap: 5px;
+  column-count: 4;
+  column-gap: 5px;
+}
+
+#gallery .size {
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+}
+div{
+    border: 1px solid black;
+}
+
+.unlike{
+    height: 20px;
+    width: 20px; 
+    margin-bottom: 2px;
+    display: block;
+    z-index: 2;
+}
+
+.like{
+    height: 25px;
+    width: 30px;
+    margin-left: -29px;
+    z-index: 1;
+    display: none;
+}
+
+//The ideas for the gallery was from Tim wells https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea is the link for more information

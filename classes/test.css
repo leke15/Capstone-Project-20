@@ -1,0 +1,95 @@
+@font-face {
+  font-family: montserat;
+  src: url(fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: cataran;
+  src: url(fonts/Catamaran/Catamaran-VariableFont_wght.ttf);
+}
+body {
+  background-color: #ff914d;
+}
+
+#navLinks {
+  margin-top: -8px;
+  margin-left: -8px;
+  background-color: black;
+  height: 100px;
+  width: 1600px;
+}
+#navLinks #logo {
+  height: 50px;
+  margin-left: 750px;
+}
+#navLinks .indent {
+  padding-top: 15px;
+  margin-left: 500px;
+}
+#navLinks a {
+  text-decoration: none;
+  font-family: montserat;
+  font-weight: bold;
+  color: #bb6a38;
+}
+#navLinks a:hover {
+  color: #361f11;
+}
+
+.cardTitle {
+  display: none;
+  width: 150px;
+  height: 100px;
+  background-color: #ff914d;
+  margin-left: 700px;
+  font-family: montserat;
+  padding: auto;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+
+.space {
+  margin-left: 40px;
+}
+
+td {
+  padding-top: 50px;
+}
+
+#testimonial {
+  font-family: montserat;
+  font-style: italic;
+  text-align: center;
+}
+#testimonial p {
+  padding-left: 100px;
+}
+
+#testimonialNames {
+  font-family: montserat;
+  font-weight: bold;
+  text-align: center;
+}
+#testimonialNames p {
+  padding-left: 90px;
+}
+
+#test1 {
+  width: 300px;
+  height: 200px;
+  border-radius: 5%;
+  margin-left: 100px;
+}
+
+#test2 {
+  width: 260px;
+  height: 250px;
+  border-radius: 5%;
+  margin-left: 250px;
+}
+
+#test3 {
+  width: 260px;
+  height: 200px;
+  margin-left: 300px;
+  border-radius: 5%;
+}/*# sourceMappingURL=test.css.map */
