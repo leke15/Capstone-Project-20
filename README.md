@@ -23,5 +23,5 @@ When you open the portfolio page you will see a gallery of images in each one, t
 > If you want to remove the image from the saved page just click on the heart icon again.
 ## Making Comments
 If you want to make a comment go to the contact page the page has a section for comments and it can be specified for a particular service.
-What you should see when you open the page
+> What you should see when you open the page
 > ![Screenshot of the contact page](images/com.png)
