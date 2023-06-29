@@ -17,3 +17,9 @@ There are certain elements that I made with jquery, These include:
 - > Saved Items button
 - > The services drop-down menu
 - > The contact us button on the homepage
+
+## Liked and Unliked Images
+When you open the portfolio page you will see a gallery of images in each one, there is a heart Icon ❤️ which is not as red as the previously shown one but when clicked on it becomes the red heart and automatically gets added to the saved page. 
+> If you want to remove the image from the saved page just click on the heart icon again.
+## Making Comments
+If you want to make a comment go to the contact page the page has a section for comments and it can be specified for a particular service.
