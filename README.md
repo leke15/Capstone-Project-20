@@ -7,8 +7,8 @@ Copy this project's github URL and Clone the project like this:
 what you should see when it's done copying in your repo.
 ![Screenshot of repo folders](/images/Screenshot 2023-06-29 151036.png).
 
-#How to Open/Use the Website
+# How to Open/Use the Website
 The file you want to open is the homepage
 > index.html
 When you open the page you should see this:
-![Screenshot of Capstone 20]()
+![Screenshot of Capstone 20](images/Publish_Website.png)
