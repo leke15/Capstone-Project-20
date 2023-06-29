@@ -15,5 +15,5 @@ The file you want to open is the homepage
 ## Jquery Elements
 There are certain elements that I made with jquery, These include:
 - > Saved Items button
-  > The services drop-down menu
-  > The contact us button on the homepage
+- > The services drop-down menu
+- > The contact us button on the homepage
