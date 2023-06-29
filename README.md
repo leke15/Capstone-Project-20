@@ -9,6 +9,11 @@ what you should see when it's done copying in your repo.
 
 # How to Open/Use the Website
 The file you want to open is the homepage
-> index.html.
--When you open the page you should see this:
-![Screenshot of Capstone 20](images/Publish_Website.png)
+`index.html.`
+> When you open the page you should see this:
+> ![Screenshot of Capstone 20](images/Publish_Website.png)
+## Jquery Elements
+There are certain elements that I made with jquery, These include:
+- > Saved Items button
+  > The services drop-down menu
+  > The contact us button on the homepage
